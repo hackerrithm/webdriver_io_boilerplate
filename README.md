@@ -5,7 +5,7 @@ WebdriverIO is a test automation framework that allows you to run tests based on
 - WebdriverIO is a tool in the Browser Testing category of a tech stack.
 - WebdriverIO is an open source tool with 5.6K GitHub stars and 1.6K GitHub forks.
 
-How to run:
+# How to run:
 
 1. clone the repository
 2. run "npm i"
