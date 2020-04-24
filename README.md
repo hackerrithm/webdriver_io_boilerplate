@@ -1,3 +1,5 @@
+# webdriver_io_boilerplate
+
 WebdriverIO is a test automation framework that allows you to run tests based on the Webdriver protocol and Appium automation technology. It provides support for your favorite BDD/TDD test framework and will run your tests locally or in the cloud using Sauce Labs, BrowserStack, TestingBot or LambdaTest.
 
 - WebdriverIO is a tool in the Browser Testing category of a tech stack.
@@ -10,4 +12,4 @@ How to run:
 3. run "ENV=qa npm test"
 
 npm test - runs functional tests
-# webdriver_io_boilerplate
+
