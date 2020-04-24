@@ -1,5 +1,5 @@
 /*
- * Page object for signUp page
+ * Page object for file download page
  */
 
 class FileDownloadPage {
@@ -17,9 +17,7 @@ class FileDownloadPage {
         downloadsPageText(){
                 this.linkText.waitForDisplayed(5000);
                 const link = $('=wpx.png')
-                // console.log("------------------- link----------",  this.linkText().getText()) 
                 return this.linkText.getText()
-                // link.getText()
         }
 
         clickDownload(){

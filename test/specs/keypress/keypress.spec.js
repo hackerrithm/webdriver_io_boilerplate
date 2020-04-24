@@ -5,9 +5,7 @@ describe("Key Press", () => {
     browser.url("/key_presses");
     const keyValue = 'Enter';
     keypressPage.submitKeyPress(keyValue);
-
-//     expect(keypressPage.result).to.eq(`You entered: ${keyValue.toUpperCase()}`);
-
+    
     assert.equal(keypressPage.result, `You entered: ${keyValue.toUpperCase()}`);
   });
 });

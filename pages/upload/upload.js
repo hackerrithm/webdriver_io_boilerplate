@@ -1,5 +1,5 @@
 /*
- * Page object for signUp page
+ * Page object for upload page
  */
 
 class uploadPage {

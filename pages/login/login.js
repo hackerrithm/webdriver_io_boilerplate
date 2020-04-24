@@ -1,5 +1,5 @@
 /*
- * Page object for signUp page
+ * Page object for login page
  */
 
 class loginPage {

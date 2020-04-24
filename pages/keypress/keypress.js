@@ -1,3 +1,7 @@
+/*
+ * Page object for file key press page
+ */
+
 class KeyPressPage {
         get open() {
             return browser.url('/key_presses');

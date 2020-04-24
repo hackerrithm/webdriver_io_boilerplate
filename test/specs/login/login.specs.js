@@ -1,7 +1,6 @@
 const loginPage = require('../../../pages/login/login');
 const loginData = require('../../../data/login.js');
 var faker = require('faker');
-// Load and instantiate Chance
 var chance = require('chance').Chance();
 
 describe('Assessment Login', () =>{
@@ -13,8 +12,6 @@ describe('Assessment Login', () =>{
 
     it('should go to auth form for login', () => {
         loginPage.clickFormAuthLink()
-        // console.log('got to here');
-        // browser.url('/');
         const title = browser.getTitle();
         assert.equal(title, 'The Internet');
     });
